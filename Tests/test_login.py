@@ -480,3 +480,4 @@ def test_put_update_user_invalid_content_type():
             headers={"Content-Type": "text/plain"}
         )
         assert response.status in [200, 400, 403]
+        .
